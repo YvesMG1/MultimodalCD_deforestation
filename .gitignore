@@ -1,0 +1,15 @@
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints/
+
+# Python bytecode directories
+__pycache__/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data files
+data/*
+#models/*
+

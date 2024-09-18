@@ -1,0 +1,31 @@
+{
+    "model_name": "FCSiamDiff",
+    "model_num": 1,
+    "bands": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+    ],
+    "input_nbr_S2": 7,
+    "input_nbr_S1": 2,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "epochs": 70,
+    "batch_size": 16,
+    "deforest_weight": 0.9,
+    "iou_threshold": 0.05,
+    "mode": "train_selected",
+    "loss_function": "CrossEntropyLoss",
+    "dilate_mask": true,
+    "sentinel_type": "both",
+    "patch_size": 224,
+    "kernel_size": 3,
+    "dropout": 0.2,
+    "scheduler": "StepLR",
+    "patience": 15,
+    "comment": "4 stages model, no augmentation"
+}
